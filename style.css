@@ -3,9 +3,41 @@
 }
 
 header {
-    background-image: url(assets/fondo1.png)
+    background-image: url(assets/fondo1.png);
+    height: 550px;
+    background-size: cover;
+    position: relative;
 }
 
-.btn {
-    background-color: rgb(37, 37, 36);
+.btn-primary {
+    border-radius: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title {
+    color: #5080e5;
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo {
+width: 120px;
+}
+
+#row-cursos {
+    background-color: #5080e5;
+}
+
+.row {
+    margin: 0px;
+
+}
+
+#row-cursos img {
+    border-radius: 50%;
 }
