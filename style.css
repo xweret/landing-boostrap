@@ -5,3 +5,7 @@
 header {
     background-image: url(assets/fondo1.png)
 }
+
+.btn {
+    background-color: rgb(37, 37, 36);
+}
