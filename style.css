@@ -25,6 +25,11 @@ header {
     transform: translateY(-50%);
 }
 
+.title1 {
+    color: #5080e5;
+    font-weight: bold;
+}
+
 .logo {
 width: 120px;
 }
@@ -40,4 +45,30 @@ width: 120px;
 
 #row-cursos img {
     border-radius: 50%;
+    width: 300px;
+}
+
+#row-nosotros {
+    background-image: url('assets/fondo2.png');
+    background-size: cover;
+    padding-top: 100px !important;
+}
+
+#row-nosotros img {
+    border-radius: 50%;
+}
+
+#row-nosotros p {
+    font-size: 14px;
+}
+
+#row-datos {
+    background-color: #5080e5;
+}
+
+.circulo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #B3FBFF
 }
